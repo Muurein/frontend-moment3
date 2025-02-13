@@ -5,10 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
-    <link rel="stylesheet" src="css/styles.css">
+    <!--<link rel="stylesheet" src="css/styles.css">-->
+    <link rel="stylesheet" href="css/main.scss">
     <script src="js/main.js" type="module"></script>
 </head>
 <body>
-    <h1>boilerplate</h1>
+    <header>
+        <nav class="dropdown-menu">
+            <a class="logo" href="index.html">MOMENT 3</a>
+
+            <ul class="menu-list" id="nav-ul">
+                <li class="menu-item"><a class="menu-link" href="#">Hem</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">Håller på att läsa</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">Vill läsa</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">Har läst</a></li>
+                <li class="menu-item"><a class="menu-link" href="SASS.html">SASS</a></li>
+            </ul>
+            
+            <div class="menu-hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+    </header>
+
+    <main>
+        <h1>Knock-off Goodreads</h1>
+        <section class="is-reading">
+            <h2>Håller på att läsa:</h2>
+            <article>
+                <img src="images/wind-and-truth.jpg" alt="boken Wind and Truth">
+                <h3>Wind and Truth</h3>
+                <p>av Brandon Sanderson</p>
+            </article>
+
+            <article>
+                <img src="images/en-katts-resedagbok.jpg" alt="boken En katts resedagbok">
+                <h3>En katts resedagbok</h3>
+                <p>av Hiro Arikawa</p>
+            </article>
+        </section>
+    </main>
+
+    <h1>Knock-off Goodreads</h1>
 </body>
 </html>
