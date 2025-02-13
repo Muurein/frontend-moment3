@@ -111,6 +111,7 @@ header {
     
     }
 }
+
 main {
     max-width: 500px;
     margin-top: 2em;
@@ -118,12 +119,12 @@ main {
 
     .is-reading {
         background-color: base.$color-primary-lighter;
-        width: 350px;
-        height: 900px; 
+        width: 17em;
         margin: auto auto;
         padding-top: 2em;
+        padding-bottom: 2em;
         margin-top: 2em;
-        
+        box-shadow: 1px 3px 10px rgb(124, 112, 98);
     }
 
     .is-reading article {
@@ -140,21 +141,32 @@ main {
         color: base.$text-menu;
         width: 5em;
         padding: 0.5em;
+        margin: auto auto;
         
-        .read-more a:hover{
-            background-color: blue;
+        .read-more:hover{
+            background-color: base.$color-secondary-darker;
             text-decoration: underline;
         }
-    }
+}
+
+aside {
+    @extend .is-reading;
+    margin-bottom: 3eM;;
+}
+
+aside p {
+    margin: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 
-
-
-
-
-/* lägg till box-shadow på aside och main */
-
+footer { /* FAN FUNKAR INTE FÖR */
+    background-color: base.$color-secondary-darker;
+    color: base.$text-menu;
+    width: 100vw;
+    height: 10em;
+}
 
 /* desktop */
 @media (min-width: 1024px) {
@@ -184,5 +196,5 @@ main {
         border-radius: 15px;
         width: 6em;
     }
-
+    }
 }

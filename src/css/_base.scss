@@ -1,7 +1,7 @@
 /* colors */
 $color-primary: rgb(252, 244, 203);
-$color-primary-darker: darken($color-primary, 60%);
-$color-primary-lighter: lighten($color-primary, 30%);
+$color-primary-darker: darken($color-primary, 65%);
+$color-primary-lighter: lighten($color-primary, 40%);
 $color-secondary: complement($color-primary);
 $color-secondary-darker: darken($color-secondary, 9%);
 $color-tetiary: white;
