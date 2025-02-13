@@ -1,13 +1,14 @@
 /* colors */
 $color-primary: rgb(252, 244, 203);
-$color-secondary: complement($color-primary);
 $color-primary-darker: darken($color-primary, 60%);
+$color-primary-lighter: lighten($color-primary, 30%);
+$color-secondary: complement($color-primary);
 $color-secondary-darker: darken($color-secondary, 9%);
 $color-tetiary: white;
 
 /* fonts and texts */
 $font-family: Helvetica, Arial, sans-serif;
-$text-regular: white;
+$text-menu: white;
 
 /* links */
 $link-secondary: white;

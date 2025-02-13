@@ -1,5 +1,6 @@
 /* man måste inkludera vilken fil variabeln ska tas ifrån, annas kommer det bli undefined */
 @use "base";
+@use "components";
 
 * {
     margin: 0;
@@ -14,14 +15,14 @@ body {
 }
 
 a {
-    color: base.$link-secondary;
+    color: base.$text-menu;
     text-decoration: none;
 }
 
 /* navigation */
 header {
     background-color: base.$color-secondary-darker;
-    color: base.$text-regular;
+    color: base.$text-menu;
 
     /* nav */
     .dropdown-menu {
@@ -65,7 +66,7 @@ header {
                 margin: 5px auto;
                 -webkit-transition: left 0.3s ease-in-out;
                 transition: left 0.3s ease-in-out;
-                background-color: base.$text-regular;
+                background-color: base.$text-menu;
             }
     
             .menu-hamburger.active .bar:nth-child(1) {
@@ -110,6 +111,48 @@ header {
     
     }
 }
+main {
+    max-width: 500px;
+    margin-top: 2em;
+    text-align: center;
+
+    .is-reading {
+        background-color: base.$color-primary-lighter;
+        width: 350px;
+        height: 900px; 
+        margin: auto auto;
+        padding-top: 2em;
+        margin-top: 2em;
+        
+    }
+
+    .is-reading article {
+        padding: 1em;
+    }
+
+    .is-reading img {
+        width: 200px;
+        height: auto;
+    }
+
+    .read-more {
+        background-color: base.$color-secondary-darker;
+        color: base.$text-menu;
+        width: 5em;
+        padding: 0.5em;
+        
+        .read-more a:hover{
+            background-color: blue;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+
+
+
+
 /* lägg till box-shadow på aside och main */
 
 
