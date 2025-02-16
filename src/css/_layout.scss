@@ -39,13 +39,6 @@ header {
             z-index: 2;
         }
 
-        /* li */
-        .menu-item {
-            list-style-type: none;
-            margin: 16px 0;
-        }
-
-        /* a */
         .menu-link{
             transition: 0.7s ease;
         }
@@ -53,69 +46,84 @@ header {
         .menu-link:hover {
             background-color: base.$link-secondary-hover; 
         }
-
-        /* creates the hamburger-menu */
-        .menu-hamburger {
-            display: block;
-            cursor: pointer;
-
-            .bar {
-                display: block;
-                width: 25px;
-                height: 3px;
-                margin: 5px auto;
-                -webkit-transition: left 0.3s ease-in-out;
-                transition: left 0.3s ease-in-out;
-                background-color: base.$text-menu;
-            }
-    
-            .menu-hamburger.active .bar:nth-child(1) {
-                transform: translateY(12px) rotate(45deg)
-            }
-    
-            .menu-hamburger.active .bar:nth-child(2) {
-                opacity: 0;
-            }
-    
-            .menu-hamburger.active .bar:nth-child(3) {
-                transform: translateY(-12px) rotate(45deg);
-            }
-        }
-
-        /* puts away the menu*/
-        .menu-list {
-            position: fixed;
-            right: -120%;
-            top: 70px;
-            gap: 0;
-            flex-direction: column;
-            background-color: base.$color-secondary-darker;
-            width: 100%;
-            text-align: center;
-            transition: 0.3s;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 60px;
-        }
-
-        /*menu-item*/
-        .menu-item {
-            margin: 16px 0;
-        }
-
-        /*makes the hamburger appear*/
-        .menu-list.active {
-            right: 0;
-        }
-    
     }
 }
+
+/* li */
+.menu-item {
+    list-style-type: none;
+    margin: 1.2em 0;
+}
+
+/* creates the hamburger-menu */
+.menu-hamburger {
+    display: block;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: left 0.3s ease-in-out;
+    transition: left 0.3s ease-in-out;
+    background-color: base.$text-menu;
+}
+    
+.menu-hamburger.active .bar:nth-child(1) {
+    transform: translateY(12px) rotate(45deg)
+}
+    
+.menu-hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+    
+.menu-hamburger.active .bar:nth-child(3) {
+    transform: translateY(-12px) rotate(45deg);
+}
+       
+
+/* puts away the menu*/
+.menu-list {
+    position: fixed;
+    right: -120%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: base.$color-secondary-darker;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+/*menu-item*/
+.menu-item {
+    margin: 16px 0;
+}
+
+/*makes the hamburger appear*/
+.menu-list.active {
+    right: 0;
+}
+    
+    
+
 
 main {
     max-width: 500px;
     margin-top: 2em;
     text-align: center;
+}
+
+    h1 {
+        padding: 0.5em; 
+        line-height: 1em;
+    }
 
     .is-reading {
         background-color: base.$color-primary-lighter;
@@ -147,11 +155,12 @@ main {
             background-color: base.$color-secondary-darker;
             text-decoration: underline;
         }
-}
+    }
+
 
 aside {
     @extend .is-reading;
-    margin-bottom: 3eM;;
+    margin-bottom: 3em;
 }
 
 aside p {
@@ -161,15 +170,43 @@ aside p {
 }
 
 
-footer { /* FAN FUNKAR INTE FÖR */
+footer { /* FAN FUNKAR INTE FÖR */ 
     background-color: base.$color-secondary-darker;
     color: base.$text-menu;
-    width: 100vw;
-    height: 10em;
+    width: 100%;
+    height: auto;
+    margin-top: 3em;
+    text-align: center;
+}
+
+footer p {
+    padding: 1.3em;
+}
+
+
+
+
+/* tablet */
+@media (min-width: base.$screen-medium) {
+
+    main {
+        max-width: 900px;
+    }
+
+    .is-reading {
+        width: 25em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 /* desktop */
-@media (min-width: 1024px) {
+@media (min-width: base.$screen-large) {
+
+    body {
+        background-color: aqua;
+    }
 
     /* displays the menu without a hambruger-menu */
     .menu-hamburger {
@@ -184,17 +221,21 @@ footer { /* FAN FUNKAR INTE FÖR */
         flex-direction: row;
         z-index: 1;
         margin-top: -73px;
-        font-size: 1.5em;
+        font-size: 1.2em;
         font-weight: 100;
         border-radius: 25px;
         padding-left: 1.5em;
         padding-right: 1.5em;
     }
 
+    .menu-item {
+        width: 5em;
+        margin-right: 5em;
+    }
+
     .menu-item:hover {
         padding: 0.2em;
         border-radius: 15px;
         width: 6em;
-    }
     }
 }

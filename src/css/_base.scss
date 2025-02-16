@@ -1,6 +1,6 @@
 /* colors */
 $color-primary: rgb(252, 244, 203);
-$color-primary-darker: darken($color-primary, 65%);
+$color-primary-darker: darken($color-primary, 73%);
 $color-primary-lighter: lighten($color-primary, 40%);
 $color-secondary: complement($color-primary);
 $color-secondary-darker: darken($color-secondary, 9%);
@@ -13,3 +13,7 @@ $text-menu: white;
 /* links */
 $link-secondary: white;
 $link-secondary-hover: rgb(72, 73, 128);
+
+/* screen sizes */
+$screen-medium: 600px;
+$screen-large: 1024px;

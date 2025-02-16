@@ -14,7 +14,7 @@
 127C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\caniuse-lite\data\features\css-not-sel-list.js133838426787538215 0
 108C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\cosmiconfig\dist\index.d.ts133838426785347415 0
 109C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\domhandler\lib\node.d.ts.map133838426783297535 0
-72C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist133839348597488237 1
+72C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist133841750393187650 1
 130C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\@parcel\source-map\parcel_sourcemap_node\build.js133838426782847126 0
 112C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\caniuse-lite\data\regions\AL.js133838426783683816 0
 110C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\msgpackr-extract\package.json133838426782363036 0
@@ -58,7 +58,7 @@
 89C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\chokidar133838532245672716 1
 101C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\@swc\helpers\_\index133838426789191420 1
 101C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\msgpackr\SECURITY.md133838426785475807 0
-82C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\src\index.html133839347972604285 0
+82C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\src\index.html133840351517904533 0
 127C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\.bin\node-gyp-build-optional-packages-test.cmd133838426795313181 0
 99C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\dotenv\lib\main.js133838426782037856 0
 99C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\chrome-trace-event133838426782240282 1
@@ -67,7 +67,7 @@
 99C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\clone\package.json133838426780590910 0
 74C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\src\js133838425537479700 1
 124C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\htmlparser2\lib\esm\WritableStream.d.ts.map133838426784381801 0
-81C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\src\SASS.html133839272083413321 0
+81C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\src\SASS.html133839353340296403 0
 105C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\@swc\core-win32-x64-msvc133838426781285607 1
 133C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\caniuse-lite\data\features\scrollintoviewifneeded.js133838426792454633 0
 88C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\@parcel133838532250932873 1
@@ -108,7 +108,7 @@
 105C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\js-yaml\lib\type\bool.js133838426781461097 0
 104C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\source-map-js\README.md133838532243935763 0
 118C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\@swc\core-win32-x64-msvc\package.json133838426780679980 0
-86C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\src\css\_base.scss133839314189914579 0
+86C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\src\css\_base.scss133839362554617680 0
 113C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\@parcel\events\src\Disposable.js133838426781495437 0
 121C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\@parcel\codeframe\test\codeframe.test.js133838426784491353 0
 152C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages.ps1133838426795303197 0
@@ -143,7 +143,7 @@
 136C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\sample-mdb.txt133838426786997918 0
 133C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\caniuse-lite\data\features\css-print-color-adjust.js133838426787720992 0
 114C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\htmlparser2\lib\WritableStream.js133838426783124241 0
-88C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\src\css\_layout.scss133839348596912992 0
+88C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\src\css\_layout.scss133841752379387802 0
 89C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\entities133838426785397251 1
 126C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\entities\lib\esm\generated\encode-html.js.map133838426784934378 0
 95C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\semver\LICENSE133838426780494887 0
@@ -1705,7 +1705,7 @@
 109C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\electron-to-chromium\LICENSE133838426780570975 0
 157C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages-test.ps1133838426795329392 0
 115C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\msgpackr-extract\node_modules\.bin133838426795313181 1
-90C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\index.18dbc454.js133839346641316398 0
+90C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\index.18dbc454.js133841746405374996 0
 122C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\msgpackr-extract\node_modules\detect-libc133838426782566996 1
 117C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\@parcel\watcher\src\PromiseRunner.hh133838426784720141 0
 143C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages133838426782667746 1
@@ -4317,12 +4317,12 @@
 96C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\.bin\semver.cmd133838426795313181 0
 96C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\.bin\semver.ps1133838426795313181 0
 112C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\node_modules\.bin\update-browserslist-db.cmd133838426795313181 0
-105C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\en-katts-resedagbok.eb8d05d7.jpg133839346641316398 0
-94C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\index.18dbc454.js.map133839346641401272 0
-91C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\index.8c1c22dc.css133839348597448328 0
-95C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\index.8c1c22dc.css.map133839348597478252 0
-83C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\index.html133839347972835026 0
-89C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\SASS.0006f2b0.js133839346641306447 0
-93C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\SASS.0006f2b0.js.map133839346641401272 0
-82C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\SASS.html133839346641316398 0
-100C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\wind-and-truth.03a9e9a3.jpg133839346641346328 0
+105C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\en-katts-resedagbok.eb8d05d7.jpg133841746405374996 0
+94C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\index.18dbc454.js.map133841746405951556 0
+91C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\index.8c1c22dc.css133841750393167369 0
+95C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\index.8c1c22dc.css.map133841750393187650 0
+83C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\index.html133841742820530977 0
+89C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\SASS.0006f2b0.js133841746405374996 0
+93C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\SASS.0006f2b0.js.map133841746405951556 0
+82C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\SASS.html133841746405374996 0
+100C:\Users\Amanda\Documents\Webbutveckling 2024-2026\Frontend\moment3\dist\wind-and-truth.03a9e9a3.jpg133841746405941583 0
