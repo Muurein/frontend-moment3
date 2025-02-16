@@ -166,6 +166,28 @@ aside p {
 }
 
 
+/* SASS-PAGE */
+.sass-h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.sass-page {
+    @extend .is-reading;
+    padding: 1.5em;
+    text-align: left;
+    width: 60vw;
+}
+
+.sass-page h2 {
+    margin-left: 0.7em;
+    margin-top: 0.5em;
+}
+.sass-page p {
+    margin: 1em;
+}
+
+/* footer */
 footer { /* FAN FUNKAR INTE FÖR */ 
     background-color: base.$color-secondary-darker;
     color: base.$text-menu;
@@ -260,6 +282,12 @@ footer p {
         }
     }
 
+
+    /* SASS-page */
+    .sass-page {
+        max-width: 1400px;
+        width: 35em;
+    }
 
     
 }

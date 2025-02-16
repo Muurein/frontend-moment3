@@ -3,17 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Moment 3</title>
+
+    <link rel="stylesheet" href="css/main.scss">
+    <script src="js/main.js" type="module"></script>
 </head>
-<body>
-        <p>Väldigt kul att testa något nytt. Gör saker mycket skönare. Känns konstigt att ha en main-fil och inte skriva i den.</p>
-        <p>Kan inte använde @extend om paragrafen där det skrivs i CSS är nästlad????</p>
-        <p>Nästling hade kunant vara bättre, eller så använde jag det fel. Nästlade in någr aelement i main-taggen 
-            men märkte då att jag inte kunde uppdatera dersa styling till större skärmar. 
+<body>  
+    <header>
+        <nav class="dropdown-menu">
+            <a class="logo" href="index.html">MOMENT 3</a>
+
+            <ul class="menu-list" id="nav-ul">
+                <li class="menu-item"><a class="menu-link" href="index.html">Hem</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">Läser nu</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">Vill läsa</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">Har läst</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">SASS</a></li>
+            </ul>
+            
+            <div class="menu-hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+    </header>
+
+    <h1 class="sass-h1">Utvärdering</h1>
+
+    <main class="sass-page"> 
+        <h2>SASS</h2>
+        <p>
+            Det var roligt att komma igång med något som verkar kunna vara till en så stor hjälp och tröskeln kändes inte särskilt hög heller.
         </p>
-        <p>Man måste verkligen vara noga. Satte en extend på aside. men när jag ville flexa main och inte aside fick jag tänka hur jag kunde göra det.</p>
-        <p>Ibland kan man lägga mycket tid på att hitta fel som egentligen hade kunant undvikas men som nybörjare i SASS är det på en helt ny nivå! Finns otroligt
-            många tillfällen att krångla till det
+        <p>
+            Dock blev steget till SASS större än vad jag trodde. Nästling verkade först som en ren och skär guda gåva men antingen använde 
+            jag den fel, eller så är gåvan falsk, för det orskade först många problem för att jag inte förstod (eller kodade fel) att det inte går att 
+            styla nästlade element "som vanligt".
         </p>
-    </body>
+        <p>
+            Annars kommer SASS med flertalet väldigt trevliga funktioner. @extend och variablerna tycker jag speciellt mycket om! Det verkar dock vara otroligt lätt
+            att tappa både kontroll och överblick, men det är säkert något man får bättre grepp om när man får mer erfarenhet. 
+        </p>
+    </main>
+    
+    <footer>
+        <p>Moment 3 - CSS-preprocessorer</p>
+        <p>Mer om SASS</p>
+    </footer>
+</body>
 </html>

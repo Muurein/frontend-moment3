@@ -3,13 +3,13 @@
 ## Time to learn about SASS and SCSS
 
 ### Krav:
-1. Det ska finnas minst två HTML-sidor. En startsida och en undersida som heter SASS.
+1. Det ska finnas minst två HTML-sidor. En startsida och en undersida som heter SASS. v
 2. Överskrifter och text med valfritt innehåll v
-3. Undersidan SASS ska innehålla en utvärdering av ditt arbete med SASS. Vilka för- och nackdelar ser du med SASS? 
-    Hur var det att komma igång att arbeta med en CSS-preprocessor.
+3. Undersidan SASS ska innehålla en utvärdering av ditt arbete med SASS. Vilka för- och nackdelar ser du med SASS? v
+    Hur var det att komma igång att arbeta med en CSS-preprocessor. v
 4. En huvudmeny med minst fem meny-alternativ (kan länkas till enbart "#") v
 5. Webbplatsen ska ha stöd för ljust och mörkt tema med media query. Ta fram två färgscheman för detta.
-6. Responsiv webbdesign, både på innehåll och meny. Ska fungera väl på stora och små enheter.
+6. Responsiv webbdesign, både på innehåll och meny. Ska fungera väl på stora och små enheter. v
 7. Minst två stycken bilder av något slag. v
 
 #### Krav på vad som ska finnas med i SASS:
