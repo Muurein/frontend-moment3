@@ -13,11 +13,11 @@
 7. Minst två stycken bilder av något slag. v
 
 #### Krav på vad som ska finnas med i SASS:
-1. Variabler (minst ska färgschema lagras i variabler)
-2. Color functions (darken och lighten ska som minst användas, men gärna fler)
+1. Variabler (minst ska färgschema lagras i variabler) v
+2. Color functions (darken och lighten ska som minst användas, men gärna fler) v
 3. Nesting v
-4. Mixins
-5. Selector inheritence (nyckelordet "@extend")
+4. Mixins v
+5. Selector inheritence (nyckelordet "@extend") v
 6. If/else-satser
-7. Minst en partial 
+7. Minst en partial v
 8. Partials med en god filstruktur för CSS-kod v

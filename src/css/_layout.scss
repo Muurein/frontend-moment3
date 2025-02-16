@@ -1,6 +1,7 @@
 /* man måste inkludera vilken fil variabeln ska tas ifrån, annas kommer det bli undefined */
 @use "base";
 @use "components";
+@import "components"; /* funkade inte utan @import */
 
 * {
     margin: 0;
@@ -138,21 +139,23 @@ h1 {
 
 .is-reading img {
     width: 200px;
-    height: 320;
+    height: 320px;
 }
 
 .read-more {
-    background-color: base.$color-secondary-darker;
-    color: base.$text-menu;
-    width: 5em;
-    padding: 0.5em;
-    margin: auto auto;
+    @include button(base.$color-secondary-darker);
 }
 
-.read-more:hover{
+.to-goodreads {
+    @include button(base.$color-secondary-darker);
+    width: 7em;
+    margin-left: -4em;
+    margin-top: 1.4em;
+}
+
+.read-more:hover, .to-goodreads:hover{
     background-color: base.$link-secondary-hover;
 }
-
 
 aside {
     @extend .is-reading;
@@ -280,6 +283,13 @@ footer p {
         .read-more {
             margin-top: 1.5em;
         }
+    }
+
+    
+    .flex-buttons {
+        display: flex;
+        margin-right: 1em;
+        justify-content: space-evenly;
     }
 
 
