@@ -5,8 +5,6 @@ $color-primary-lighter: lighten($color-primary, 40%);
 $color-primary-darkmode-main: darken($color-primary, 50%);
 $color-secondary: complement($color-primary);
 $color-secondary-darker: darken($color-secondary, 12%);
-$color-secondary-darkmode: darken($color-secondary, 75%);
-/*$color-secondary-darkmode-desaturate: saturation($color-secondary-darkmode, 10%);*/
 $color-tetiary: white;
 
 /* darkmode */

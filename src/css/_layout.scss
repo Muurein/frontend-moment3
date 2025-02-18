@@ -139,6 +139,7 @@ h1 {
 
 .read-more {
     @include button(base.$color-secondary-darker);
+    border-radius: 0;
 }
 
 .to-goodreads {
@@ -245,16 +246,21 @@ footer p {
         background-color: black; 
     }
 
-    .read-more, .to-goodreads {
-        background-color: black;
+    .read-more {
+        @include button(base.$darkmode-color-secondary);
+    }
+
+    .to-goodreads{
+        @include button(base.$darkmode-color-secondary);
+        width: 7em;
     }
 
     .read-more:hover {
-        background-color: base.$darkmode-color-primary;
+        background-color: black;
     }
 
     .to-goodreads:hover {
-        background-color: base.$darkmode-color-primary;
+        background-color: black;
     }
 }
 
@@ -305,13 +311,12 @@ footer p {
 }
 
     .menu-item {
-        width: 4em;
+        width: 6em;
         margin-right: 3em;
     }
 
     .menu-item:hover {
         border-radius: 15px;
-        width: 10em;
     }
 
 

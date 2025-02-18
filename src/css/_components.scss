@@ -6,4 +6,11 @@
     width: 5em;
     padding: 0.5em;
     margin: auto auto;
+    border-radius: 5px;
+
+    @if $bgColor == base.$darkmode-color-secondary {
+        border-radius: 50px;
+    } @else  {
+        border-radius: 0;
+    }
 }
