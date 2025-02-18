@@ -4,7 +4,8 @@
 const dropdownMenuEl = document.getElementById("hamburger");
 const menuListEl = document.getElementById("nav-ul");
 
-/* toggles active */
+
+/* toggles menu */
 dropdownMenuEl.addEventListener("click", () => {
     dropdownMenuEl.classList.toggle("active");
     menuListEl.classList.toggle("active");
@@ -14,3 +15,4 @@ dropdownMenuEl.addEventListener("click", () => {
     dropdownMenuEl.classList.remove("active");
     menuListEl.classList.remove("active");
 }))
+

@@ -8,8 +8,6 @@
 }
 
 body {
-    background-color: base.$color-primary;
-    color: base.$color-primary-darker;
     font-family: base.$font-family;
     font-size: 1.3em;
     line-height: 1.3em;
@@ -21,9 +19,8 @@ a {
 }
 
 /* navigation */
+/* based on code from Web Dev Tutorials on YouTube https://www.youtube.com/watch?v=flItyHiDm7E */
 header {
-    background-color: base.$color-secondary-darker;
-    color: base.$text-menu;
 
     /* nav */
     .dropdown-menu {
@@ -35,17 +32,17 @@ header {
         z-index: 2;
 
         .logo {
-            font-size: 1.5rem;
+            font-size: 1.1em;
             font-weight: 600;
             z-index: 2;
         }
-
-        .menu-link:hover {
-            background-color: base.$link-secondary-hover; 
-            padding: 0.2em;
-            border-radius: 30px;
-        }
     }
+}
+
+.menu-link:hover {
+    background-color: base.$link-secondary-hover; 
+    padding: 0.2em;
+    border-radius: 30px;
 }
 
 /* li */
@@ -66,7 +63,7 @@ header {
     height: 3px;
     margin: 5px auto;
     -webkit-transition: left 0.3s ease-in-out;
-    transition: left 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     background-color: base.$text-menu;
 }
     
@@ -79,18 +76,17 @@ header {
 }
     
 .menu-hamburger.active .bar:nth-child(3) {
-    transform: translateY(-12px) rotate(45deg);
+    transform: translateY(-4px) rotate(135deg);
 }
        
 
-/* puts away the menu*/
+/* styles menu content and puts away the menu */
 .menu-list {
     position: fixed;
     right: -120%;
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color: base.$color-secondary-darker;
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -124,7 +120,6 @@ h1 {
 }
 
 .is-reading {
-    background-color: base.$color-primary-lighter;
     width: 17em;
     margin: auto auto;
     padding-top: 2em;
@@ -149,8 +144,7 @@ h1 {
 .to-goodreads {
     @include button(base.$color-secondary-darker);
     width: 7em;
-    margin-left: -4em;
-    margin-top: 1.4em;
+    margin-top: 1em;
 }
 
 .read-more:hover, .to-goodreads:hover{
@@ -180,6 +174,7 @@ aside p {
     padding: 1.5em;
     text-align: left;
     width: 60vw;
+    margin-bottom: 6.1em;
 }
 
 .sass-page h2 {
@@ -191,8 +186,7 @@ aside p {
 }
 
 /* footer */
-footer { /* FAN FUNKAR INTE FÖR */ 
-    background-color: base.$color-secondary-darker;
+footer { 
     color: base.$text-menu;
     width: 100%;
     height: auto;
@@ -204,6 +198,65 @@ footer p {
     padding: 1.3em;
 }
 
+
+/* light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: base.$color-primary;
+    }
+
+    header, footer, .menu-list {
+        background-color: base.$color-secondary-darker;
+        color: base.$text-menu;
+    } 
+
+    main h1, .sass-h1 {
+        color: base.$color-primary-darker;
+    }
+
+    .is-reading {
+        background-color: base.$color-primary-lighter;
+        color: base.$color-primary-darker;
+    }
+}
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: base.$darkmode-color-primary;
+    }
+
+    header, footer, .menu-list {
+        background-color: base.$darkmode-color-secondary;
+        color: base.$darkmode-text;
+    }
+
+    main h1, .sass-h1 {
+        color: base.$darkmode-text;
+    }
+
+    .is-reading {
+        background-color: base.$darkmode-color-tetiary;
+        color: base.$darkmode-text;
+        box-shadow: 1px 3px 10px rgb(92, 92, 92);
+    }
+
+    .menu-link:hover {
+        background-color: black; 
+    }
+
+    .read-more, .to-goodreads {
+        background-color: black;
+    }
+
+    .read-more:hover {
+        background-color: base.$darkmode-color-primary;
+    }
+
+    .to-goodreads:hover {
+        background-color: base.$darkmode-color-primary;
+    }
+}
 
 
 
@@ -282,6 +335,11 @@ footer p {
 
         .read-more {
             margin-top: 1.5em;
+        }
+
+        .to-goodreads {
+            margin-left: -4em;
+            margin-top: 1.4em;
         }
     }
 
